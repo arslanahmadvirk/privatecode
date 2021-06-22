@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb+srv://sefi123:sefi12345@sefi1.rud7y.mongodb.net/Faculty?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://admin:123@cluster0.v4cau.mongodb.net/shoppingcart?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
